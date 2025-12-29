@@ -1,10 +1,16 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Virtual environment
+venv/
 
-# Virtual environments
-.venv
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Vector database & local DB
+chroma_data/
+sessions.db
+
+# Streamlit cache
+.streamlit/
